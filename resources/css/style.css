@@ -12,14 +12,16 @@ html {
 header {
   background-color: cadetblue;
   font-size: 1rem;
-  margin-top: 1rem;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
 }
 
 header .container {
   display: flex;
   align-items: center;
-  padding: 1rem 2rem;
+
 }
 
 header img {
@@ -30,7 +32,50 @@ header img {
 
 ul li {
   display: inline;
-  text-align: right;
-  align-items: center;
-  justify-content: space-between;
+  margin-right: 2rem;
 }
+
+.banner {
+  background-image: url("../images/glasses-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+}
+
+.headline {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1.5rem 5rem;
+  background-color: white;
+  margin-top: 10rem;
+}
+/*
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.icon {
+  height: 8rem;
+}
+
+.icon_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*padding: 6rem 0;
+}
+
+.infos {
+  display: flex;
+  justify-content: space-between;
+}/*
