@@ -13,8 +13,8 @@ header {
   background-color: cadetblue;
   font-size: 1rem;
   color: white;
-  display: flex;
   padding: 1rem 2rem;
+  align-items: center;
 }
 
 header .container {
