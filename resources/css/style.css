@@ -39,6 +39,8 @@ ul li {
   background-repeat: no-repeat;
   background-size: cover;
   height: 30rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .headline {
