@@ -10,17 +10,16 @@ html {
 }
 
 header {
-  background-color: cadetblue;
   font-size: 1rem;
   color: white;
-  padding: 1rem 2rem;
-  align-items: center;
 }
 
 header .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
 }
 
 header img {
