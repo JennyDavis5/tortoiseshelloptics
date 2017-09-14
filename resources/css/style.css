@@ -35,10 +35,6 @@ nav ul li {
   margin-right: 2rem;
 }
 
-.banner span {
-  align-items: center;
-}
-
 .banner {
   background-image: url("../images/glasses-bg.png");
   background-position: center;
