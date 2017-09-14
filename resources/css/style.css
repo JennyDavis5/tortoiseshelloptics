@@ -19,18 +19,24 @@ header .container {
   align-items: center;
   justify-content: space-between;
   background-color: cadetblue;
-  padding: 1rem 2rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  width: 960px;
+  margin-top: 1rem;
 }
 
 header img {
   height: 1.5rem;
-  margin-left: 2rem;
   margin-right: 1rem;
 }
 
-ul li {
-  display: inline;
+nav ul li {
+  display: inline-flex;
   margin-right: 2rem;
+}
+
+.banner span {
+  align-items: center;
 }
 
 .banner {
@@ -60,41 +66,62 @@ ul li {
 
 .icons {
   display: flex;
-  justify-content: space-between;
-  margin-top: 3rem;
+  margin: 3rem 0;
+  justify-content: center;
+  text-align: center;
 }
 
 .icon {
-  display: inline-flex;
-  justify-content: center;
+  padding: 0 6rem;
   height: 8rem;
 }
-/*
+
 .icon_img {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
-  align-items: center;
-  /*padding: 6rem 0;
+  width: 3.5rem;
+}
+
+.icon_name {
+  display: block;
+  text-align: center;
+  width: 5rem;
 }
 
 .infos {
   display: flex;
-  justify-content: space-between;
-}*/
+  justify-content: center;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.info_name {
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  font-weight: bold;
+  font-size: 1rem;
+  width: 10rem;
+  display: flex;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
 
 footer {
   background-color: azure;
-  margin: 4rem;
-  text-align: left;
+  padding: 4rem;
+  margin-top: 5rem;
 }
 
 footer .container {
   display: flex;
-  align-items: center;;
+  align-items: center;
 }
 
 footer img {
-  margin-left: 4rem;
   margin-right: 1rem;
   height: 1.5rem;
 }
