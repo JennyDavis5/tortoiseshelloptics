@@ -68,16 +68,19 @@ nav .mobile_nav {
   color: black;
 }
 
+
 .icons {
   display: flex;
-  margin: 3rem 0;
-  justify-content: center;
   text-align: center;
+  margin: 3rem 0;
+  width: 5rem;
+  margin-left: 25%;
 }
 
 .icon {
-  padding: 0 6rem;
+  padding-right: 6rem;
   height: 8rem;
+  justify-content: center;
 }
 
 .icon_img {
@@ -86,10 +89,12 @@ nav .mobile_nav {
   width: 3.5rem;
 }
 
-.icon_name {
-  display: block;
-  text-align: center;
-  width: 5rem;
+.ruler .icon_img {
+  padding-bottom: 2.75rem;
+}
+
+.truck .icon_img {
+  padding-bottom: 2.4rem;
 }
 
 .infos {
